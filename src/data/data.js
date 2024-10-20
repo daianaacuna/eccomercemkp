@@ -3,26 +3,37 @@ const products = [
     {
       id: "Prm1111",
       name: "Primer hidratante Revlon photoready",
-      id: "Pbs2211",
-      name: "Primer iluminacion e hidratacion Max Factor Miracle prep",
       description: "",
       price: 15000,
       stock: 20,
-      price: 22000,
-      image: "/img/primermaxfactor.webp",
       image: "/img/primerrevlon.webp",
       category: "primers"
     },
+
+    {
+      id: "Pbs2211",
+      name: "Primer iluminacion e hidratacion Max Factor Miracle prep",
+      description: "",
+      price: 22000,
+      stock: 20,
+      image: "/img/primermaxfactor.webp",
+      category: "primers"
+    },
+
     {
       id: "Bb3131",
       name: "BB Cream Maybelline Dream Satin",
+      description: "",
+      price: 17000,
+      stock: 4,
+      image: "/img/bbcream.webp",
+      category: "primers",
+    },
+
+    {
       id: "Bs3322",
       name: "Base de maquillaje Maybelline Fit Me",
       description: "",
-      stock: 4,
-      price: 17000,
-      image: "/img/bbcream.webp",
-      category: "primers",
       price: 22000,
       stock: 2,
       image: "/img/basefitme.jpeg",
@@ -35,7 +46,7 @@ const products = [
       description: "",
       price: 10000,
       stock: 8,
-      image: "/img/correctorfitme.jpeg",
+      image: "/img/correctorfitme.jpg",
       category: "correctores"
     },
     {

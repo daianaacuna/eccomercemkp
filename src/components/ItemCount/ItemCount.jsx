@@ -13,7 +13,7 @@ const ItemCount = ({stock, addProduct}) => {
     const handleClickAdd = () => {
         if(count < stock){
         setCount(count + 1)
-        }
+        } 
     }
 
     return (

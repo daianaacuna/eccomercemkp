@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import Cart from "../components/Cart/Cart";
+import { createContext, useState } from "react";
+//import Cart from "../components/Cart/Cart";
 
 const CartContext = createContext()
 
@@ -23,7 +23,7 @@ const CartProvider = ({children}) => {
     
     }
 
-    const isIncart = () => {
+    const isIncart = (idProduct) => {
         return cart.some( (productCart)=> productCart.id === idProduct)
     }
 

@@ -1,1 +1,5 @@
-
+.container-app{
+    background-color: rgb(233, 179, 126);
+    color: rgb(234, 221, 221);
+    min-height: 100vh;
+  }

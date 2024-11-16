@@ -9,7 +9,7 @@ const CartWidget = () => {
     const quantity = totalQuantity ()
     return (
         <Link to="/cart" className="cartwidget">
-            <IoMdCart className="icon-cart" color="pink" />
+            <IoMdCart style={ quantity === 0 ? { color: "gray"} : { color: "pink"} } / >
             <p>{ quantity >= 1 && quantity  }</p>
         </Link>
     )
